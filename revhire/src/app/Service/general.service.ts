@@ -9,7 +9,7 @@ import { LoginCredentials } from '../Model/login-credentials';
 })
 export class GeneralService {
 
-  base_url = "aks-cluster-dns-pck4ar9d.hcp.eastus.azmk8s.io:4200/";
+  base_url = "http://20.242.236.34:8082/";
   constructor(private http: HttpClient) {   }
 
   public getUser(userId:number):Observable <any>{
