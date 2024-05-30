@@ -9,7 +9,7 @@ import { LoginCredentials } from '../Model/login-credentials';
 })
 export class GeneralService {
 
-  base_url = "aa5908059c31f4345bfbc62895807390-301179049.us-east-1.elb.amazonaws.com:8082/";
+  base_url = "aks-cluster-dns-pck4ar9d.hcp.eastus.azmk8s.io:4200/";
   constructor(private http: HttpClient) {   }
 
   public getUser(userId:number):Observable <any>{
