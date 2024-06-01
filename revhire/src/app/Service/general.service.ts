@@ -9,7 +9,7 @@ import { LoginCredentials } from '../Model/login-credentials';
 })
 export class GeneralService {
 
-  base_url = "http://20.242.236.34:8082/";
+  base_url = "https://mywebapp19090931.azurewebsites.net/";
   constructor(private http: HttpClient) {   }
 
   public getUser(userId:number):Observable <any>{
