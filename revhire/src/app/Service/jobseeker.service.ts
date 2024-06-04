@@ -8,7 +8,7 @@ import { Application } from '../Model/application';
   providedIn: 'root'
 })
 export class JobseekerService {
-  base_url = "https://mywebapp19090931.azurewebsites.net/";
+  base_url = "http://mywebapp30113000.azurewebsites.net/";
   constructor(private http: HttpClient) {   }
 
   public getJobsByUserId(id:Number):Observable <any>{
