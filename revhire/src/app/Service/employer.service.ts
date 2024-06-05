@@ -9,7 +9,7 @@ import { Application } from '../Model/application';
 })
 export class EmployerService {
 
-  base_url = "https://mywebapp30113000.azurewebsites.net/";
+  base_url = "https://revhireapp1.azurewebsites.net/";
   constructor(private http: HttpClient) {   }
 
   public getJob(Id:number):Observable <any>{
